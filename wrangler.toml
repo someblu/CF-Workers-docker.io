@@ -1,0 +1,8 @@
+name = "docker-proxy"
+main = "_worker.js"
+type = "javascript"
+compatibility_date = "2026-01-01"
+
+[[routes]]
+pattern = "docker.suzu.sh"
+custom_domain = true
